@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    color: rgb(41, 36, 36);
+    font-family: "Poppins";
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color: #91DDCF;
+}
+
+.corpo {
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.adicao {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid;
+    padding: 50px;
+    border-radius: 8px;
+    background-color: #F7F9F2;
+    width: 450px;
+    height: 450px;
+}
+
+.adicao_campo {
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #F7F9F2;
+}
+
+input {
+    width: 415px;
+    height: 50px;
+    border-radius: 15px;
+    border: 3px solid;
+    background-color: white;
+    font-size: 20px;
+    padding: 0 0 0 15px;
+}
+
+.lista_tarefa {
+    background-color: #F7F9F2;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid;
+    padding: 30px;
+    width: 450px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.produtoNome {
+    font-size: 24px;
+}
+
+.botao {
+    border-radius: 8px;
+    background-color: rgb(92, 241, 99);
+    width: 120px;
+    height: 60px;
+    margin: 15px 0 0 0px;
+    font-weight: bold;
+}
+
+.resultado {
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+li {
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+    border: 2px solid;
+    padding: 15px 0 0 0;
+    width: 350px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 10px;
+    background-color: #91DDCF;
+}
+
+.botaoDeletar {
+    border-radius: 8px;
+    background-color: rgb(255, 0, 0);
+    width: 28px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+
+.caixaSelecao {
+    display: flex;
+    text-align: center;
+    width: 15px;
+    position: relative;
+    right: 5px;
+    bottom: 12px;
+}
+
+.blocoLista {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 5px;
+}
+
+.caixaSelecao:checked + .classeLista {
+    color: green;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
+.edit {
+    border-radius: 8px;
+    background-color: rgb(0, 255, 0);
+    width: 50px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 18px;
+}

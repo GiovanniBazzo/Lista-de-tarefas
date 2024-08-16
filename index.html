@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Lista de Tarefas</title>
+</head>
+<body>
+    <header>
+        <h1>Lista de Tarefas</h1>
+    </header>
+    <div class="corpo">
+        <div class="adicao">
+            <div class="adicao_campo">
+                <label class="produtoNome">Nova Tarefa</label>
+                <input type="text" name="Nome" required id="tarefa" value="">
+                <button class="botao" onclick="adicionarTarefa()">Adicionar Tarefa</button>
+                
+            </div>
+        </div>
+        <div class="lista_tarefa" id="blocoResultado">
+            <h3>Lista de Tarefas</h3>
+                <ul id="resultado" class="resultado" ondrop="drop(event)" ondragover="allowDrop(event)"></ul>
+            
+        </div>
+    </div>
+    <script src="script copy.js"></script>
+</body>
+</html>
