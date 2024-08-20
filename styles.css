@@ -167,7 +167,13 @@ li {
     }
 
     .botaoDeletar {
-        width: 25px;
+        text-align: center;
+        width: 32px;
+        padding: 2px;
+    }
+
+    .edit {
+        padding: 2px;
     }
 }
 
@@ -192,7 +198,13 @@ li {
     }
 
     .botaoDeletar {
-        width: 25px;
+        text-align: center;
+        width: 32px;
+        padding: 2px;
+    }
+
+    .edit {
+        padding: 2px;
     }
 
     .corpoTodo {
