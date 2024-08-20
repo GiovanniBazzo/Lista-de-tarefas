@@ -165,4 +165,8 @@ li {
     .lista_tarefa {
         min-height: 450px;
     }
+
+    .botaoDeletar {
+        width: 25px;
+    }
 }
