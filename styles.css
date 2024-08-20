@@ -170,3 +170,42 @@ li {
         width: 25px;
     }
 }
+
+@media screen and (max-width: 700px) {
+    body {
+        display: flex;
+        justify-content: center;
+    }
+    .corpo {
+        margin-top: 45px;
+        display: flex;
+        justify-content: center;
+        gap: 80px;
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+        text-align: center;
+    }
+
+    .lista_tarefa {
+        min-height: 450px;
+    }
+
+    .botaoDeletar {
+        width: 25px;
+    }
+
+    .corpoTodo {
+        width: 300px;
+    }
+
+    .botao {
+        border-radius: 8px;
+        background-color: rgb(92, 241, 99);
+        width: 120px;
+        height: 60px;
+        margin: 15px 0 0 0px;
+        font-weight: bold;
+        font-size: 17px;
+    }
+}
